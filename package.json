@@ -1,0 +1,17 @@
+{
+  "name": "takakos-butter-mochi",
+  "version": "1.0.0",
+  "description": "Premium landing page for Takako's Butter Mochi Cakes",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y http-server . -p 3000 -o"
+  },
+  "keywords": [
+    "mochi",
+    "butter-mochi",
+    "landing-page",
+    "premium-design"
+  ],
+  "author": "Antigravity",
+  "license": "ISC"
+}

@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Best Practices -->
+  <title>Takako's Butter Mochi Cakes | Chewy, Buttery Hawaiian Perfection</title>
+  <meta name="description" content="Discover Takako's artisanal Hawaiian Butter Mochi Cakes. Experience an incredibly soft, chewy, buttery texture topped with a golden, crispy toasted coconut crunch. Freshly baked in small batches. Order via WhatsApp today!">
+  <meta name="keywords" content="butter mochi cake, Hawaiian mochi, chewy mochi cake, Takako butter mochi, artisanal mochi, coconut mochi, gluten-free dessert">
+  
+  <!-- Favicon / Web App Settings -->
+  <meta name="theme-color" content="#C58C40">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- 1. NAVIGATION HEADER -->
+  <header id="site-header">
+    <div class="container">
+      <a href="#home" class="logo" id="header-logo">
+        Takako's <span>Mochi</span>
+      </a>
+      
+      <nav id="header-nav">
+        <a href="#home" class="active" id="nav-link-home">Home</a>
+        <a href="#secret" id="nav-link-secret">The Secret</a>
+        <a href="#story" id="nav-link-story">Our Story</a>
+        <a href="#menu" id="nav-link-menu">The Box</a>
+        <a href="#reviews" id="nav-link-reviews">Reviews</a>
+        <a href="#faq" id="nav-link-faq">FAQs</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://wa.me/05416962?text=Hi%20Takako!%20I'd%20love%20to%20order%20some%20of%20your%20famous%20butter%20mochi%20cakes." 
+           class="btn btn-whatsapp" 
+           target="_blank" 
+           rel="noopener noreferrer" 
+           id="header-cta-whatsapp">
+          <svg class="icon" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.739-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.013-5.101-2.859-6.95C16.63 2.007 14.162.992 11.53.992c-5.451 0-9.875 4.373-9.879 9.801-.002 1.81.488 3.578 1.419 5.111L2.08 21.945l6.196-1.611l.1-.061z"/>
+          </svg>
+          Order Now
+        </a>
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Toggle Navigation Menu" id="mobile-menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content reveal active">
+        <span class="badge badge-gold">Handcrafted &amp; Freshly Baked</span>
+        <h1 class="hero-title">
+          The Chewiest, <em>Butteriest</em> Hawaiian Mochi Cakes.
+        </h1>
+        <p class="hero-desc">
+          Crafted with love by Takako, each bite features an incredibly rich, soft, bouncy mochi interior that melts into pure buttery delight—perfectly contrasted by a crunchy, golden toasted coconut shred surprise on top.
+        </p>
+        <div class="hero-cta">
+          <a href="#menu" class="btn btn-primary" id="hero-btn-explore">Explore Our Boxes</a>
+          <a href="https://wa.me/05416962?text=Hi%20Takako!%20I'd%20love%20to%20order%20some%20of%20your%20butter%20mochi%20cakes.%20What%20is%20today's%20batch%20looking%20like?" 
+             class="btn btn-whatsapp" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             id="hero-btn-whatsapp">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.739-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.013-5.101-2.859-6.95C16.63 2.007 14.162.992 11.53.992c-5.451 0-9.875 4.373-9.879 9.801-.002 1.81.488 3.578 1.419 5.111L2.08 21.945l6.196-1.611l.1-.061z"/>
+            </svg>
+            Order via WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper reveal active">
+        <div class="hero-image-bg"></div>
+        <div class="hero-image-container">
+          <img src="./assets/butter_mochi_hero.png" alt="A freshly-baked golden-brown slice of Takako's Hawaiian Butter Mochi Cake topped with toasted coconut shreds on a minimalist ceramic plate" id="img-hero-mochi">
+        </div>
+        
+        <!-- Interactive Floating Tag -->
+        <div class="floating-tag" id="hero-floating-tag">
+          <div class="avatar">T</div>
+          <div class="tag-text">
+            <h4>"The Crunchy Surprise!"</h4>
+            <p>Toasted Coconut Topping</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. THE TEXTURE SECRET (FEATURE SECTION) -->
+  <section class="features" id="secret">
+    <div class="container">
+      <div class="section-title-wrapper reveal">
+        <span class="badge badge-green">The Perfect Contrast</span>
+        <h2>A Masterclass in Texture</h2>
+        <p>How we achieve the ultimate balance of soft, rich, and crunchy in every square.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="features-image-container reveal" id="feature-image-wrapper">
+          <img src="./assets/mochi_texture_close.png" alt="Macro photograph showing the incredibly chewy, gooey, and buttery interior glistening structure of Takako's butter mochi cake slice" id="img-texture-close">
+          <div class="features-overlay">
+            <h3>Pure Mochi Magic</h3>
+            <p>Crispy browned caramelized edges meet a bouncy, melt-in-your-mouth interior.</p>
+          </div>
+        </div>
+
+        <div class="feature-list reveal">
+          <!-- Feature 1: The Chewy Bounce -->
+          <div class="feature-item" id="feature-chewy">
+            <div class="feature-icon-wrapper">🍡</div>
+            <div class="feature-content">
+              <h3>The Legendary Chewy Bounce</h3>
+              <p>Made using premium sweet glutinous rice flour (Mochiko), our dough undergoes a slow-rise temperature bake to lock in that incredibly soft, elastic, and elastic pull that defines perfect Hawaiian-style mochi.</p>
+            </div>
+          </div>
+
+          <!-- Feature 2: Rich Buttery Core -->
+          <div class="feature-item" id="feature-buttery">
+            <div class="feature-icon-wrapper">🧈</div>
+            <div class="feature-content">
+              <h3>Rich, Buttery Slow-Baked Core</h3>
+              <p>We fold blocks of real organic sweet cream butter and rich coconut cream into the recipe. This creates an unbelievably aromatic and decadent custard core that stays fresh, buttery, and incredibly moist for days.</p>
+            </div>
+          </div>
+
+          <!-- Feature 3: Crunchy Coconut Surprise -->
+          <div class="feature-item" id="feature-coconut">
+            <div class="feature-icon-wrapper">🥥</div>
+            <div class="feature-content">
+              <h3>The Crunchy Coconut Surprise</h3>
+              <p>The crown jewel. Right before finishing, we dust the caramelized golden top with hand-shaved white coconut shreds. They roast to a crisp, providing a brilliant, unexpected crunch that contrasts beautifully with the soft cake below.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. TAKAKO'S STORY -->
+  <section class="story" id="story">
+    <div class="container">
+      <div class="story-content reveal">
+        <span class="badge badge-gold">The Artisan's Touch</span>
+        <blockquote class="story-text">
+          "I wanted to craft a pastry that feels like a warm hug. By combining the slow, gentle methods of traditional <em>Japanese mochi</em> with the sunny, decadent, buttery flavors of <em>Hawaiian butter mochi</em>, I found a texture that is truly heavenly. The golden coconut shreds on top are my personal signature—giving you a delightful, crispy crunch when you least expect it."
+        </blockquote>
+        <div class="story-author">
+          <span class="story-signature">— Takako</span>
+          <span class="story-title">Founder &amp; Head Baker</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PRICING & ORDER SELECTION CARDS -->
+  <section class="order-section" id="menu">
+    <div class="container">
+      <div class="section-title-wrapper reveal">
+        <span class="badge badge-gold">Baked Fresh Daily</span>
+        <h2>Choose Your Mochi Box</h2>
+        <p>Order direct from our kitchen. Tap on a box to order instantly on WhatsApp!</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Option 1: Shared Box -->
+        <div class="glass-card pricing-card reveal" id="pricing-shared">
+          <span class="badge badge-gold">Perfect for Sharing</span>
+          <h3>The Shared Box</h3>
+          <div class="pricing-price">$28 <span>/ 9 Large Squares</span></div>
+          <p class="pricing-desc">The ideal size to share with family, friends, or to indulge over a cozy weekend. Comes in an eco-friendly gift box.</p>
+          <ul class="pricing-features">
+            <li>9 generous pieces of Hawaiian Butter Mochi</li>
+            <li class="highlight">Loaded with crispy toasted coconut shreds</li>
+            <li>Naturally Gluten-Free &amp; hand-packed</li>
+            <li>Baked fresh on the morning of delivery</li>
+          </ul>
+          <a href="https://wa.me/05416962?text=Hi%20Takako!%20I'd%20love%20to%20order%20'The%20Shared%20Box'%20(9%20pieces)%20of%20your%20Hawaiian%20butter%20mochi%20cakes.%20" 
+             class="btn btn-whatsapp" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             id="btn-order-shared">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.739-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.013-5.101-2.859-6.95C16.63 2.007 14.162.992 11.53.992c-5.451 0-9.875 4.373-9.879 9.801-.002 1.81.488 3.578 1.419 5.111L2.08 21.945l6.196-1.611l.1-.061z"/>
+            </svg>
+            Order Shared Box
+          </a>
+        </div>
+
+        <!-- Option 2: Party Platter -->
+        <div class="glass-card pricing-card popular reveal" id="pricing-party">
+          <span class="badge badge-green">The Ultimate Celebration</span>
+          <h3>The Party Platter</h3>
+          <div class="pricing-price">$45 <span>/ 16 Large Squares</span></div>
+          <p class="pricing-desc">Perfect for dinner parties, picnics, corporate gifts, or ultimate mochi lovers. Guaranteed to steal the show.</p>
+          <ul class="pricing-features">
+            <li>16 generous pieces of Hawaiian Butter Mochi</li>
+            <li class="highlight">Loaded with extra crispy toasted coconut shreds</li>
+            <li>Beautiful premium packaging &amp; customizable card</li>
+            <li>Free hand-delivery in our local baking zone</li>
+          </ul>
+          <a href="https://wa.me/05416962?text=Hi%20Takako!%20I'd%20love%20to%20order%20'The%20Party%20Platter'%20(16%20pieces)%20of%20your%20Hawaiian%20butter%20mochi%20cakes.%20" 
+             class="btn btn-whatsapp" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             id="btn-order-party">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.739-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.013-5.101-2.859-6.95C16.63 2.007 14.162.992 11.53.992c-5.451 0-9.875 4.373-9.879 9.801-.002 1.81.488 3.578 1.419 5.111L2.08 21.945l6.196-1.611l.1-.061z"/>
+            </svg>
+            Order Party Platter
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. REVIEWS & TESTIMONIALS -->
+  <section class="testimonials" id="reviews">
+    <div class="container">
+      <div class="section-title-wrapper reveal">
+        <span class="badge badge-green">Loved by Foodies</span>
+        <h2>What Our Customers Say</h2>
+        <p>Pure delight, one bouncy bite at a time.</p>
+      </div>
+
+      <div class="testimonials-slider reveal">
+        <div class="glass-card testimonial-card" id="review-card-1">
+          <p class="testimonial-quote">
+            "I've never had mochi this chewily soft. The <mark>buttery richness</mark> is pure decadence, and that roasted coconut shred crunch on top is an absolute stroke of genius!"
+          </p>
+          <div class="testimonial-user">
+            <div class="testimonial-avatar">A</div>
+            <div class="testimonial-info">
+              <h4>Amara K.</h4>
+              <p>Verified Customer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. FAQs -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-title-wrapper reveal">
+        <span class="badge badge-gold">Got Questions?</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about our legendary mochi cakes.</p>
+      </div>
+
+      <div class="faq-wrapper reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item" id="faq-storage">
+          <button class="faq-question">
+            Does butter mochi need to be refrigerated?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>No! In fact, we recommend keeping it at room temperature in an airtight container. Refrigeration can harden the rice flour structure and mute the butter aromatic oils. It stays incredibly soft, chewy, and fresh at room temperature for up to 3 to 4 days.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item" id="faq-gf">
+          <button class="faq-question">
+            Is Takako's butter mochi gluten-free?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, absolutely! Our butter mochi is naturally 100% gluten-free. It is made primarily from sweet glutinous rice flour (Mochiko), organic butter, milk, coconut cream, and sugar. No wheat flour is used in our kitchen.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item" id="faq-delivery">
+          <button class="faq-question">
+            How do I place my order and get it delivered?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Simply click any of our "Order on WhatsApp" buttons or message us directly at <strong>05416962</strong>. Tell us which box you'd like and your delivery address. We bake in small artisan batches every morning and deliver them warm to your doorstep.</p>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item" id="faq-warm">
+          <button class="faq-question">
+            Can I reheat the butter mochi?
+            <span>+</span>
+          </button>
+          <div class="faq-answer">
+            <p>While it is absolutely divine at room temperature, you can microwave a slice for 8 to 10 seconds to make it ultra-gooey, warm, and stretchy. It makes the butter aroma incredibly intense!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. FOOTER -->
+  <footer id="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand" id="footer-brand-section">
+          <h3>Takako's <span>Mochi</span></h3>
+          <p>Handcrafting Hawaiian butter mochi cakes baked with premium organic ingredients and topped with our signature crunchy toasted coconut surprise.</p>
+        </div>
+
+        <div class="footer-links" id="footer-links-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#secret">The Secret</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#menu">Choose Your Box</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact" id="footer-contact-section">
+          <h4>Baking Kitchen</h4>
+          <ul>
+            <li>📍 Local Artisan Batch Bakery</li>
+            <li>📞 WhatsApp Order Line: <a href="https://wa.me/05416962" target="_blank" rel="noopener noreferrer">05416962</a></li>
+            <li>✨ naturally gluten-free</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Takako's Butter Mochi Cakes. All rights reserved.</p>
+        <p>Baking happiness daily.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
